@@ -10,6 +10,11 @@
   </head>
 
   <body>
+    <ul style="background-color: lightgrey; padding: 30px;">
+      <li><%= link_to "Home", home_sweet_home_path %></li>
+      <li><%= link_to "Ask", ask_path %></li>
+      <li><%= link_to "Answer", answer_path %></li>
+    </ul>
     <%= yield %>
   </body>
 </html>
